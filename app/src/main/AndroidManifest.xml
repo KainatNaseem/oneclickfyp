@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.pdbsflhr22.serviceseeker">
+
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"
+        tools:ignore="MockLocation" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.SelectionActivity" />
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.BeforeLogin" />
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.LoginActivity" />
+        <!-- <activity android:name=".SignUpActivity1" /> -->
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.Create_Account" />
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.ActivitymSrvices" />
+        <activity android:name=".Provider_Profile" />
+        <activity android:name="com.example.pdbsflhr22.serviceseeker.ActivityProviderList" />
+        <activity android:name=".Plumber_Activity" />
+        <activity android:name=".Tutor_Activity" />
+        <activity android:name=".HomeRepair_Activity" />
+        <activity android:name=".Drawer_Activity" />
+        <activity
+            android:name=".ProviderProfile"
+            android:label="@string/title_activity_provider_profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity_ProviderProfile"
+            android:label="@string/title_activity__provider_profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.pdbsflhr22.serviceseeker.ActivityProviderProfile"
+            android:label="@string/title_activity_provider_profile"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
